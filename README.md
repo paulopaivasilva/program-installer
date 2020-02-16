@@ -1,0 +1,4 @@
+- Abrir a solution no Visual Studio;
+- Dentro da pasta \bin\debug acrescentar uma pasta chamada "application" e nela colocar os programas serem instalados.
+- Modificar o nome dos arquivos instaláveis para os nomes que aparecerão na tela;
+- Executar o programa para atualizar a versão de Debug.
