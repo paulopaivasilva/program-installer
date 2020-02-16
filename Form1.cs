@@ -54,14 +54,24 @@ namespace Programas
             if(files.Length == 0)
             {
                 this.label2.Text = "Nenhum programa foi encontrado!";
+                this.panel1.Visible = false;
+                this.Anchor = 0;
             }
             else
             {
-                this.label2.Text = "";
-                this.label3.Text = "";
+                this.label2.Visible = false;
+                this.label3.Visible = false;
                 this.button1.Visible = false;
-                int top = 39;
-                int left = 130;
+                int top = -30;
+                int left = 110;
+
+                Button total = new Button();
+                total.Location = new Point(125, 37);
+                total.AutoSize = true;
+                total.Text = "Instalação Total";
+                total.Click += new EventHandler(this.button7_Click);
+                this.Controls.Add(total);
+                top += total.Height + 16;
 
                 foreach (string file in files)
                 {
@@ -69,30 +79,19 @@ namespace Programas
                     string name = file.Substring(index);
                     int final = name.LastIndexOf(@".");
                     Button button = new Button();
-                    button.Left = left;
                     button.Top = top;
+                    button.Left = left;
                     button.Size = new Size(101, 23);
                     button.AutoSize = true;
                     button.Text = name.Substring(1, final - 1);
                     button.Click += (teste, i) => this.executeProgram(name);
-                    this.Controls.Add(button);
+                    this.panel1.Controls.Add(button);
+                    //this.Controls.Add(button);
                     top += button.Height + 16;
                 }
 
-                Button total = new Button();
-                total.Left = left;
-                total.Top = top;
-                total.Size = new Size(101, 23);
-                total.AutoSize = true;
-                total.Text = "Instalação Total";
-                total.Click += new EventHandler(this.button7_Click);
-                this.Controls.Add(total);
-                top += total.Height + 16;
-
                 Button exit = new Button();
-                exit.Left = left;
-                exit.Top = top;
-                exit.Size = new Size(101, 23);
+                exit.Location = new Point(138, 387);
                 exit.AutoSize = true;
                 exit.Text = "Sair";
                 exit.Click += new EventHandler((teste, i) => { Application.Exit(); });
