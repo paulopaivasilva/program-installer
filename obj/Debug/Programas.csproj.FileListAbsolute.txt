@@ -7,3 +7,12 @@ C:\Users\paulo\OneDrive\Desktop\Program\Programas\obj\Debug\Programas.Properties
 C:\Users\paulo\OneDrive\Desktop\Program\Programas\obj\Debug\Programas.csproj.GenerateResource.cache
 C:\Users\paulo\OneDrive\Desktop\Program\Programas\obj\Debug\Programas.exe
 C:\Users\paulo\OneDrive\Desktop\Program\Programas\obj\Debug\Programas.pdb
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\bin\Debug\Programas.exe.config
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\bin\Debug\Programas.exe
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\bin\Debug\Programas.pdb
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.csprojAssemblyReference.cache
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.Form1.resources
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.Properties.Resources.resources
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.csproj.GenerateResource.cache
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.exe
+C:\Users\paulo\OneDrive\Documentos\GitHub\installer\program-installer\obj\Debug\Programas.pdb
